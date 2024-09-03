@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import ugadi from './ugadi.png';
 
 const EventPage = () => {
     const { name } = useParams();
@@ -28,11 +29,17 @@ const EventPage = () => {
   ],
             additionalInfo: "Don't forget to bring sunscreen and water!"
         },{
-            title: 'Ballroom Gala',
+            title: 'Ugadi Utsav',
             date: 'May 15, 2023',
             time: '7:00 PM',
-            mainPhoto: 'https://i.ytimg.com/vi/C_KZ2TxiOpA/maxresdefault.jpg',
-            description: 'Join us for a night of salsa dancing and music.',
+            mainPhoto: ugadi,
+            description: `The event Ugadi Utsav 2K24 has been conducted on 09th April 2024 in Kalasalingam Academy of Research and Education. 
+Inauguration function started at 1:00pm with the lighting of the Kuthuvilakku as a tribute to Mother Saraswathi, the Goddess of Knowledge by the dignitaries. Prayer works wonders. Prayer should spring from the heart, thinking of a supreme power beyond all human inadequacies is a kind of auto suggestion
+Prayer to the God Ganesha with the song Gananayagaya by Sravani
+Dr. K. Sridharan – Chancellor & Dr. A. Samson Nesaraj – Director of Student Affairs, is the guest for the event.
+Dr. Kotte. Amaranadha Reddy, Faculty Coordinator of Vishaka Club & Assistant professor (Department of Mathematics) delivered the welcome address. 
+  Ms A Deepithika-President of club Vishaka proposed a vote of thanks.
+`,
             photos: [ "https://i.ytimg.com/vi/C_KZ2TxiOpA/maxresdefault.jpg",
     "https://m.media-amazon.com/images/I/51ZTjQRvWlS.jpg",
     "https://i.pinimg.com/originals/54/7a/7f/547a7f9693b6ab79efcd963d2d760fcf.png",
@@ -50,7 +57,7 @@ const EventPage = () => {
         <h1 className="text-4xl font-bold mb-2">{event.title}</h1>
         <p className="text-xl text-gray-600">{event.date} at {event.time}</p>
       </div>
-      <div className="w-full h-[50vh]">
+      <div className="w-full  flex justify-center">
         <img src={event.mainPhoto} alt={event.title} className="w-full h-full object-cover" />
       </div>
       <div className="p-8">
