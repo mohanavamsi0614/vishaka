@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const EventSlider = ({ events }) => {
     const navigate = useNavigate();
     const settings = {
-      dots: false,
+      dots: false,  
       infinite: true,
       speed: 500,
       slidesToShow: 2,
