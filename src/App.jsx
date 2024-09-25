@@ -4,6 +4,8 @@ import MainContent from "./mainco";
 import Footer from "./foot";
 import EventPage from "./EventPage";
 import { Routes, Route } from 'react-router-dom'
+import Events from "./componunts/Events";
+import Members from "./componunts/Members";
 const App = () => {
   return (
     
@@ -16,6 +18,8 @@ const App = () => {
         </div>
       } />
       <Route path="/event/:name" element={<EventPage/>} />
+      <Route path="/events" element={<Events/>}/>
+      <Route path="/members" element={<Members/>}/>
       </Routes>
   );
 };

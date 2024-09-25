@@ -6,6 +6,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import raju from "./Screenshot 2024-09-25 104646.png"
+import { useNavigate } from 'react-router';
 const images = [
   { src: 'https://i.ytimg.com/vi/C_KZ2TxiOpA/maxresdefault.jpg', alt: 'Salsa Night' },
   { src: 'https://m.media-amazon.com/images/I/51ZTjQRvWlS.jpg', alt: 'Hip Hop Workshop' },
@@ -41,6 +42,7 @@ const settings = {
 };
 
 const MainContent = () => {
+  const nav=useNavigate()
   return (
     <motion.main
       initial={{ opacity: 0 }}
@@ -69,7 +71,7 @@ const MainContent = () => {
       </motion.section>
       <button className='bg-blue-500 text-white p-2 mb-12 rounded-full'>View More</button>
       <section>
-      <h2 className="text-2xl font-semibold mb-4">The team</h2>
+      <h2 className="text-2xl font-semibold mb-4" onClick={()=>{nav("/members")}}>The team</h2>
       <Slider {...settings} className="mt-8"> 
         {Array(12).fill().map((_, index) => (
           <div className='relative p-2 w-full' key={index}>
