@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import ugadi from './ugadi.png';
+import Footer from './foot';
 
 const EventPage = () => {
     const { name } = useParams();
+    useEffect(()=>{
+      window.scrollTo(0,0)
+    })
     const events = [
         {
             title: 'Salsa Night',
@@ -52,15 +56,15 @@ Dr. Kotte. Amaranadha Reddy, Faculty Coordinator of Vishaka Club & Assistant pro
 
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="bg-black w-full h-full text-white p-8 overflow-y-auto">
       <div className="text-center py-8">
         <h1 className="text-4xl font-bold mb-2">{event.title}</h1>
         <p className="text-xl text-gray-600">{event.date} at {event.time}</p>
       </div>
-      <div className="w-full  flex justify-center">
+      <div className="w-full mb-10  flex justify-center">
         <img src={event.mainPhoto} alt={event.title} className="w-full h-full object-cover" />
       </div>
-      <div className="p-8">
+      <div className="">
         <p className="text-lg mb-8">{event.description}</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-8">
           {event.photos.map((photo, index) => (
@@ -72,6 +76,7 @@ Dr. Kotte. Amaranadha Reddy, Faculty Coordinator of Vishaka Club & Assistant pro
           <p className="text-gray-700">{event.additionalInfo}</p>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

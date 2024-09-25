@@ -2,7 +2,10 @@ import { motion } from 'framer-motion';
 import EventSlider from './componunts/Slider';
 import Gallery from './componunts/gallary';
 import ugadi from './ugadi.png';
-
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import raju from "./Screenshot 2024-09-25 104646.png"
 const images = [
   { src: 'https://i.ytimg.com/vi/C_KZ2TxiOpA/maxresdefault.jpg', alt: 'Salsa Night' },
   { src: 'https://m.media-amazon.com/images/I/51ZTjQRvWlS.jpg', alt: 'Hip Hop Workshop' },
@@ -19,6 +22,23 @@ const pastEvents =[
   { id: 2, title: 'Hip Hop Workshop', date: 'May 22, 2023', image: 'https://m.media-amazon.com/images/I/51ZTjQRvWlS.jpg' },
   { id: 3, title: 'Ballroom Gala', date: 'June 5, 2023', image: 'https://i.pinimg.com/originals/54/7a/7f/547a7f9693b6ab79efcd963d2d760fcf.png' },
 ];
+const settings = {
+  dots: true,  
+  infinite: true,
+  speed: 500,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+  ],
+};
 
 const MainContent = () => {
   return (
@@ -47,7 +67,30 @@ const MainContent = () => {
         <h2 className="text-2xl font-semibold mb-4">Event Gallery</h2>
         <Gallery images={images} />
       </motion.section>
-      <button className='bg-blue-500 text-white p-2 rounded-full'>View More</button>
+      <button className='bg-blue-500 text-white p-2 mb-12 rounded-full'>View More</button>
+      <section>
+      <h2 className="text-2xl font-semibold mb-4">The team</h2>
+      <Slider {...settings} className="mt-8"> 
+        {Array(12).fill().map((_, index) => (
+          <div className='relative p-2 w-full' key={index}>
+            <img src={raju} className='w-full h-64 object-cover rounded-lg shadow-md' /> 
+            <div className='absolute bottom-2 w-full  text-center text-white bg-black bg-opacity-50'>
+              <p className='text-xl font-bold'>Raju</p>
+              <p>Role</p>
+              <div className='flex justify-center space-x-4 mt-2'> 
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa fa-instagram"></i>
+</a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa fa-linkedin"></i>
+</a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa fa-twitter"></i>
+</a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </Slider>
+      </section>
+
     </motion.main>
   );
 };
