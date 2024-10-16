@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import Navbar from '../nav';
 import members from "../team";
+import { useNavigate } from 'react-router';
 
 const Members = () => {
     useEffect(() => {
@@ -9,7 +10,7 @@ const Members = () => {
 
     return (
         <div className="bg-black min-h-screen text-white p-4">
-            <Navbar />
+            <Navbar home={false} />
             <h1 className="text-3xl text-center mb-8 font-bold">Members List</h1>
             <ul className="flex flex-wrap items-center justify-center">
                 {members.map((member) => (

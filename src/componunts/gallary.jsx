@@ -17,12 +17,7 @@ const Gallery = ({ images }) => {
             alt={image.alt || `Image ${index + 1}`} 
             className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
           />
-          {index % 3 === 0 && (
-            <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2">
-              <h3 className="text-sm font-bold">{image.title || `Image ${index + 1}`}</h3>
-              <p className="text-xs">{image.description || 'Image description'}</p>
-            </div>
-          )}
+          
         </div>
       ))}
     </div>

@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router";
 
-const Navbar = () => {
+const Navbar = ({home}) => {
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
-
+const nav=useNavigate()
   const controlNavbar = () => {
     if (window.scrollY > lastScrollY) {
       setShowNavbar(false);
@@ -34,21 +35,21 @@ const Navbar = () => {
       <div className="flex justify-evenly bg-gray-900   w-[80%]  rounded-lg  p-4 font-sans text-lg font-medium shadow-md" onClick={()=>{setShowNavbar(true)}}>
         <div 
           className="hover:text-gray-700 transition-colors text-white duration-200 cursor-pointer"
-          onClick={() => scrollToSection('home')}
+          onClick={() => {home ? scrollToSection('home'):  nav("/")}}
         >
           Home
         </div>
         <div 
           className="hover:text-gray-700 transition-colors text-white duration-200 cursor-pointer"
-          onClick={() => scrollToSection('events')}
+          onClick={() => {home ? scrollToSection('events'): nav("/")}}
         >
           Events
         </div>
         <div 
           className="hover:text-gray-700 transition-colors text-white duration-200 cursor-pointer"
-          onClick={() => scrollToSection('about')}
+          onClick={() =>{home ? scrollToSection('about'):  nav("/")}}
         >
-          About
+          Team
         </div>
       </div>
     </div>

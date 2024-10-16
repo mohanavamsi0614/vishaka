@@ -11,7 +11,7 @@ const App = () => {
     
       <Routes>  
       <Route path="/" element={<div className="flex flex-col min-h-screen">
-      <Navbar />
+      <Navbar home ={true}/>
       <Header id='home'/>
       <MainContent id='events' />
       <Footer id='about'/>

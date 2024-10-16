@@ -7,6 +7,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import raju from "./Screenshot 2024-09-25 104646.png"
 import { useNavigate } from 'react-router';
+import members from './team.js';
 const images = [
   { src: 'https://i.ytimg.com/vi/C_KZ2TxiOpA/maxresdefault.jpg', alt: 'Salsa Night' },
   { src: 'https://m.media-amazon.com/images/I/51ZTjQRvWlS.jpg', alt: 'Hip Hop Workshop' },
@@ -73,18 +74,18 @@ const MainContent = () => {
       <section>
       <h2 className="text-2xl font-semibold mb-4" onClick={()=>{nav("/members")}}>The team &#x2192;</h2>
       <Slider {...settings} className="mt-8"> 
-        {Array(12).fill().map((_, index) => (
+        {members.map((i, index) => (
           <div className='relative p-2 w-full' key={index}>
-            <img src={raju} className='w-full h-64 object-cover rounded-lg shadow-md' /> 
+            <img src={i.file} className='w-full h-64 object-cover rounded-lg shadow-md' /> 
             <div className='absolute bottom-2 w-full  text-center text-white bg-black bg-opacity-50'>
-              <p className='text-xl font-bold'>Raju</p>
-              <p>Role</p>
+              <p className='text-xl font-bold'>{i.name}</p>
+              <p>{i.role}</p>
               <div className='flex justify-center space-x-4 mt-2'> 
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa fa-instagram"></i>
+                <a href={i.instagram} target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa fa-instagram"></i>
 </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa fa-linkedin"></i>
+                <a href={i.linkedin} target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa fa-linkedin"></i>
 </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa fa-twitter"></i>
+                <a href={i.email} target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa fa-twitter"></i>
 </a>
               </div>
             </div>

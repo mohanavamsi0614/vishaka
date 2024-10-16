@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import ugadi from './ugadi.png';
 import Footer from './foot';
 
@@ -8,6 +8,8 @@ const EventPage = () => {
     useEffect(()=>{
       window.scrollTo(0,0)
     })
+    const nav=useNavigate()
+
     const events = [
         {
             title: 'Salsa Night',
@@ -58,6 +60,7 @@ Dr. Kotte. Amaranadha Reddy, Faculty Coordinator of Vishaka Club & Assistant pro
   return (
     <div className="bg-black w-full h-full text-white p-8 overflow-y-auto">
       <div className="text-center py-8">
+      <h1 className=' size-10 rounded-full border border-white  text-center text-2xl' onClick={()=>{nav("/")}}>	&larr;</h1>
         <h1 className="text-4xl font-bold mb-2">{event.title}</h1>
         <p className="text-xl text-gray-600">{event.date} at {event.time}</p>
       </div>
