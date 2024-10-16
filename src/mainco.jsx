@@ -5,7 +5,6 @@ import ugadi from './ugadi.png';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import raju from "./Screenshot 2024-09-25 104646.png"
 import { useNavigate } from 'react-router';
 import members from './team.js';
 const images = [
