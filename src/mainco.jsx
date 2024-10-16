@@ -71,7 +71,7 @@ const MainContent = () => {
       </motion.section>
       <button className='bg-blue-500 text-white p-2 mb-12 rounded-full'>View More</button>
       <section>
-      <h2 className="text-2xl font-semibold mb-4" onClick={()=>{nav("/members")}}>The team</h2>
+      <h2 className="text-2xl font-semibold mb-4" onClick={()=>{nav("/members")}}>The team &#x2192;</h2>
       <Slider {...settings} className="mt-8"> 
         {Array(12).fill().map((_, index) => (
           <div className='relative p-2 w-full' key={index}>
