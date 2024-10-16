@@ -20,7 +20,7 @@ const data=[
       "email": "tarunsaikorlepara@gmail.com",
       "role": "President",
       "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-      "file":tarun ,
+      "file":"https://res.cloudinary.com/dus9hgplo/image/upload/v1729091677/ehbwufabl7feqm8smtpr.png" ,
       "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
@@ -29,7 +29,7 @@ const data=[
       "email": "alluraghava9@gmail.com",
       "role": "Vice President",
       "instagram": "https://www.instagram.com/invites/contact/?igsh=1kh6a6texxu9g&utm_content=5zib4sg",
-      "file": allu,
+      "file": "https://res.cloudinary.com/dus9hgplo/image/upload/v1729091713/mkud4hdfx9bhnn6hbqmm.png",
       "linkedin": "https://www.linkedin.com/in/allu-raghava-35282a234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
@@ -38,7 +38,7 @@ const data=[
       "email": "likitharamesh0309@gmail.com",
       "role": "Vice president",
       "instagram": "https://www.instagram.com/likitha_39",
-      "file": Likitha
+      "file": "https://res.cloudinary.com/dus9hgplo/image/upload/v1729091735/rlaqckeobojvdipyi8id.png"
     },
     {
       "date_time": "30/09/2024 10:55:26",
