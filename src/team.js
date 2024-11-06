@@ -14,7 +14,7 @@ import Vudathu from "./assets/photos/Screenshot 2024-10-16 132018.png";
 import Aashritha from "./assets/photos/Screenshot 2024-10-16 132151.png";
 import chaithanya from "./assets/photos/Screenshot 2024-10-16 133045.png";
 
-const data = [
+export default const data = [
   {
     "date_time": "30/09/2024 11:27:23",
     "name": "Dr.Kotte Amaranadha Readdy",
