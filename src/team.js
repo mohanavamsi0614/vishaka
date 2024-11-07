@@ -27,10 +27,10 @@ import Amulya from "./assets/photos/Amulya.png"
 const data = [
   {
     "date_time": "30/09/2024 11:27:23",
-    "name": "Dr.Kotte Amaranadha Readdy",
+    "name": "Dr.Kotte Amaranadha Reddy",
     "role": "Faculty Coordinator",
     "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-    "file": tarun,
+    "file": "tarun",
     "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
@@ -38,7 +38,7 @@ const data = [
     "name": "Dr.L.Sreenivasalu Reddy",
     "role": "Mentor",
     "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-    "file": tarun,
+    "file": "tarun",
     "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
@@ -46,7 +46,7 @@ const data = [
     "name": "Dr.B.Reddappa",
     "role": "Mentor",
     "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-    "file": tarun,
+    "file": "tarun",
     "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
@@ -54,7 +54,7 @@ const data = [
     "name": "Ms.Palli usha",
     "role": "Event Coordinator",
     "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-    "file": tarun,
+    "file": "tarun",
     "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
@@ -62,7 +62,7 @@ const data = [
     "name": "Mr.I.Muthuselvam",
     "role": "Event Coordinator",
     "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-    "file": tarun,
+    "file": "tarun",
     "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
@@ -328,7 +328,7 @@ const data = [
     "email": "aashritha616@gmail.com",
     "role": "Discipline Team Lead",
     "instagram": "https://www.instagram.com/aashritha_06?igsh=MWI3NDI3ZGM=",
-    "file": Aashritha,
+    "file": "Aashritha",
     "linkedin": "https://www.linkedin.com/in/aashritha-varanasi-b8b92926b"
   },
  
