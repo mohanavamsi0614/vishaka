@@ -13,8 +13,18 @@ import Akhil from "./assets/photos/Screenshot 2024-10-16 114949.png";
 import Vudathu from "./assets/photos/Screenshot 2024-10-16 132018.png";
 import Aashritha from "./assets/photos/Screenshot 2024-10-16 132151.png";
 import chaithanya from "./assets/photos/Screenshot 2024-10-16 133045.png";
-
- const data = [
+import akki from "./assets/photos/image-removebg-preview (1).png"
+import divya from "./assets/photos/image-removebg-preview (2).png"
+import Ranga from "./assets/photos/Screenshot 2024-11-07 093903.png" 
+import Narayana from "./assets/photos/Narayana.png"
+import  Sandhya from "./assets/photos/Sandhya.png"
+import Annand from "./assets/photos/image-removebg-preview (3).png"
+import Lakshmi from "./assets/photos/lakshmi.png"
+import Kavya from "./assets/photos/Kavya.png"
+import krishna from "./assets/photos/Krishna.png"
+import Rishitha from "./assets/photos/Rishita.png"
+import Amulya from "./assets/photos/Amulya.png"
+const data = [
   {
     "date_time": "30/09/2024 11:27:23",
     "name": "Dr.Kotte Amaranadha Readdy",
@@ -57,18 +67,18 @@ import chaithanya from "./assets/photos/Screenshot 2024-10-16 133045.png";
   },
   {
     "date_time": "30/09/2024 11:27:23",
-    "name": "A Deepithika (1-jan-23 to 31-jun-23)",
+    "name": "A Deepithika ",
     "email": "tarunsaikorlepara@gmail.com",
-    "role": "President",
+    "role": "President (Jan23 - Jun23)",
     "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-    "file": tarun,
+    "file": akki,
     "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
     "date_time": "30/09/2024 11:27:23",
-    "name": "Tarun Sai Korlepara (1-jul-23 to 31-dec-23)",
+    "name": "Tarun Sai Korlepara",
     "email": "tarunsaikorlepara@gmail.com",
-    "role": "President And Chair Person",
+    "role": "President (Jul 23 - Dec 23) And Chair Person",
     "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
     "file": tarun,
     "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -96,7 +106,7 @@ import chaithanya from "./assets/photos/Screenshot 2024-10-16 133045.png";
     "email": "tarunsaikorlepara@gmail.com",
     "role": "Chair Person",
     "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-    "file": tarun,
+    "file": divya,
     "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
@@ -149,16 +159,16 @@ import chaithanya from "./assets/photos/Screenshot 2024-10-16 133045.png";
     "name": "R Charan Ranga",
     "email": "keerthivardhankorlepara@gmail.com",
     "role": "Treasurer",
-    "instagram": "https://www.instagram.com/keerthi_royal___03?igsh=MWI2MGI1ZDZhOA==",
-    "file": KEERTHIVARDHAN,
-    "linkedin": "https://www.linkedin.com/in/keerthi-vardhan-korlepara-68415926b"
+    "instagram": "https://www.instagram.com/charan_ranga_?igsh=MWEzNDFsZnZvZTIwZA==",
+    "file": Ranga,
+    "linkedin": "https://www.linkedin.com/in/charanranga?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },{
     "date_time": "30/09/2024 11:27:52",
     "name": "M Jaya Chandrika",
     "email": "keerthivardhankorlepara@gmail.com",
     "role": "Treasurer",
     "instagram": "https://www.instagram.com/keerthi_royal___03?igsh=MWI2MGI1ZDZhOA==",
-    "file": KEERTHIVARDHAN,
+    "file": "",
     "linkedin": "https://www.linkedin.com/in/keerthi-vardhan-korlepara-68415926b"
   },
   {
@@ -166,26 +176,26 @@ import chaithanya from "./assets/photos/Screenshot 2024-10-16 133045.png";
     "name": "M Veda Nandana Lakshmi",
     "email": "keerthivardhankorlepara@gmail.com",
     "role": "Activity Coordinator",
-    "instagram": "https://www.instagram.com/keerthi_royal___03?igsh=MWI2MGI1ZDZhOA==",
-    "file": KEERTHIVARDHAN,
-    "linkedin": "https://www.linkedin.com/in/keerthi-vardhan-korlepara-68415926b"
+    "instagram": "https://www.instagram.com/Nandana_motamarri",
+    "file": "",
+    "linkedin": "https://www.linkedin.com/in/Veda nandana lakshmi motamarri"
   }, {
     "date_time": "30/09/2024 11:27:52",
     "name": "D Surya Narayana Pratap",
     "email": "keerthivardhankorlepara@gmail.com",
     "role": "Activity Coordinator",
-    "instagram": "https://www.instagram.com/keerthi_royal___03?igsh=MWI2MGI1ZDZhOA==",
-    "file": KEERTHIVARDHAN,
-    "linkedin": "https://www.linkedin.com/in/keerthi-vardhan-korlepara-68415926b"
+    "instagram": "https://www.instagram.com/surya__daka?igsh=MW5scDN4NWN1aHZ5Mw==",
+    "file": Narayana,
+    "linkedin": "https://www.linkedin.com/in/surya-narayana-pratap-daka-6816a52b5/"
   },
   {
     "date_time": "30/09/2024 11:27:52",
     "name": "K Sandhya",
     "email": "keerthivardhankorlepara@gmail.com",
     "role": "Cultural Lead",
-    "instagram": "https://www.instagram.com/keerthi_royal___03?igsh=MWI2MGI1ZDZhOA==",
-    "file": KEERTHIVARDHAN,
-    "linkedin": "https://www.linkedin.com/in/keerthi-vardhan-korlepara-68415926b"
+    "instagram": "https://www.instagram.com/sandhya_venkat_reddy?igsh=MTVoN21vZXhoZ2owZA==",
+    "file":Sandhya,
+    "linkedin": "https://www.linkedin.com/in/sandhya-kuncham-a97425261"
   },
   {
     "date_time": "30/09/2024 11:27:52",
@@ -193,7 +203,7 @@ import chaithanya from "./assets/photos/Screenshot 2024-10-16 133045.png";
     "email": "keerthivardhankorlepara@gmail.com",
     "role": "Cultural Lead",
     "instagram": "https://www.instagram.com/keerthi_royal___03?igsh=MWI2MGI1ZDZhOA==",
-    "file": KEERTHIVARDHAN,
+    "file": Lakshmi,
     "linkedin": "https://www.linkedin.com/in/keerthi-vardhan-korlepara-68415926b"
   },
   {
@@ -202,7 +212,7 @@ import chaithanya from "./assets/photos/Screenshot 2024-10-16 133045.png";
     "email": "keerthivardhankorlepara@gmail.com",
     "role": "Technical Head",
     "instagram": "https://www.instagram.com/keerthi_royal___03?igsh=MWI2MGI1ZDZhOA==",
-    "file": KEERTHIVARDHAN,
+    "file": Annand,
     "linkedin": "https://www.linkedin.com/in/keerthi-vardhan-korlepara-68415926b"
   },
   {
@@ -211,7 +221,7 @@ import chaithanya from "./assets/photos/Screenshot 2024-10-16 133045.png";
     "email": "keerthivardhankorlepara@gmail.com",
     "role": "Technical Head",
     "instagram": "https://www.instagram.com/keerthi_royal___03?igsh=MWI2MGI1ZDZhOA==",
-    "file": KEERTHIVARDHAN,
+    "file":"" ,
     "linkedin": "https://www.linkedin.com/in/keerthi-vardhan-korlepara-68415926b"
   }, {
     "date_time": "30/09/2024 11:27:52",
@@ -227,7 +237,7 @@ import chaithanya from "./assets/photos/Screenshot 2024-10-16 133045.png";
     "email": "keerthivardhankorlepara@gmail.com",
     "role": "DOP",
     "instagram": "https://www.instagram.com/keerthi_royal___03?igsh=MWI2MGI1ZDZhOA==",
-    "file": KEERTHIVARDHAN,
+    "file": Kavya,
     "linkedin": "https://www.linkedin.com/in/keerthi-vardhan-korlepara-68415926b"
   },
   
@@ -236,8 +246,8 @@ import chaithanya from "./assets/photos/Screenshot 2024-10-16 133045.png";
     "name": "Mohan Krishna",
     "email": "keerthivardhankorlepara@gmail.com",
     "role": "Photographer",
-    "instagram": "https://www.instagram.com/keerthi_royal___03?igsh=MWI2MGI1ZDZhOA==",
-    "file": KEERTHIVARDHAN,
+    "instagram": "https://www.instagram.com/_a_k_7____",
+    "file": krishna,
     "linkedin": "https://www.linkedin.com/in/keerthi-vardhan-korlepara-68415926b"
   },  {
     "date_time": "30/09/2024 11:27:52",
@@ -245,7 +255,7 @@ import chaithanya from "./assets/photos/Screenshot 2024-10-16 133045.png";
     "email": "keerthivardhankorlepara@gmail.com",
     "role": "Photographer",
     "instagram": "https://www.instagram.com/keerthi_royal___03?igsh=MWI2MGI1ZDZhOA==",
-    "file": KEERTHIVARDHAN,
+    "file": "",
     "linkedin": "https://www.linkedin.com/in/keerthi-vardhan-korlepara-68415926b"
   },
 
@@ -299,18 +309,18 @@ import chaithanya from "./assets/photos/Screenshot 2024-10-16 133045.png";
     "name": "P Sri Rishitha varma",
     "email": "chaithanyaputtaparthi003@gmail.com",
     "role": "Social Media Head",
-    "instagram": "https://www.instagram.com/its_chaithu03",
+    "instagram": "https://www.instagram.com/rishita_varma_9849?igsh=eHdhZ3Axdm90cWRj",
     "linkedin": "https://www.linkedin.com/in/chaithanya-puttaparthi-906495243",
-    "file": chaithanya
+    "file": Rishitha
   },
   {
     "date_time": "30/09/2024 11:40:24",
     "name": "U Amulya Sri",
     "email": "kiranvudathu17@gmail.com",
     "role": "Discipline Team Lead",
-    "instagram": "https://www.instagram.com/kiran_1704?igsh=ZWQyNjYwOGQ=",
-    "file": Vudathu,
-    "linkedin": "https://www.linkedin.com/in/kiran-vudathu-72b1a8264"
+    "instagram": "",
+    "file": Amulya,
+    "linkedin": "https://www.linkedin.com/in/amulyasri-u-02921b31a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
     "date_time": "30/09/2024 11:47:13",
