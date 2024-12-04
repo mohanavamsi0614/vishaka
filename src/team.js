@@ -25,46 +25,46 @@ import krishna from "./assets/photos/Krishna.png"
 import Rishitha from "./assets/photos/Rishita.png"
 import Amulya from "./assets/photos/Amulya.png"
 const data = [
-  {
-    "date_time": "30/09/2024 11:27:23",
-    "name": "Dr.Kotte Amaranadha Reddy",
-    "role": "Faculty Coordinator",
-    "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-    "file": "tarun",
-    "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-  },
-  {
-    "date_time": "30/09/2024 11:27:23",
-    "name": "Dr.L.Sreenivasalu Reddy",
-    "role": "Mentor",
-    "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-    "file": "tarun",
-    "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-  },
-  {
-    "date_time": "30/09/2024 11:27:23",
-    "name": "Dr.B.Reddappa",
-    "role": "Mentor",
-    "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-    "file": "tarun",
-    "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-  },
-  {
-    "date_time": "30/09/2024 11:27:23",
-    "name": "Ms.Palli usha",
-    "role": "Event Coordinator",
-    "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-    "file": "tarun",
-    "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-  },
-  {
-    "date_time": "30/09/2024 11:27:23",
-    "name": "Mr.I.Muthuselvam",
-    "role": "Event Coordinator",
-    "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-    "file": "tarun",
-    "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-  },
+  // {
+  //   "date_time": "30/09/2024 11:27:23",
+  //   "name": "Dr.Kotte Amaranadha Reddy",
+  //   "role": "Faculty Coordinator",
+  //   "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
+  //   "file": "tarun",
+  //   "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  // },
+  // {
+  //   "date_time": "30/09/2024 11:27:23",
+  //   "name": "Dr.L.Sreenivasalu Reddy",
+  //   "role": "Mentor",
+  //   "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
+  //   "file": "tarun",
+  //   "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  // },
+  // {
+  //   "date_time": "30/09/2024 11:27:23",
+  //   "name": "Dr.B.Reddappa",
+  //   "role": "Mentor",
+  //   "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
+  //   "file": "tarun",
+  //   "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  // },
+  // {
+  //   "date_time": "30/09/2024 11:27:23",
+  //   "name": "Ms.Palli usha",
+  //   "role": "Event Coordinator",
+  //   "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
+  //   "file": "tarun",
+  //   "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  // },
+  // {
+  //   "date_time": "30/09/2024 11:27:23",
+  //   "name": "Mr.I.Muthuselvam",
+  //   "role": "Event Coordinator",
+  //   "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
+  //   "file": "tarun",
+  //   "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  // },
   {
     "date_time": "30/09/2024 11:27:23",
     "name": "A Deepithika ",

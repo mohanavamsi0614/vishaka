@@ -24,11 +24,11 @@ const pastEvents =[
   { id: 3, title: 'Ballroom Gala', date: 'June 5, 2023', image: 'https://i.pinimg.com/originals/54/7a/7f/547a7f9693b6ab79efcd963d2d760fcf.png' },
 ];
 const settings = {
-  dots: true,  
+  dots: false,  
   infinite: true,
   speed: 500,
   slidesToShow: 2,
-  slidesToScroll: 1,
+  slidesToScroll: 2,
   autoplay: true,
   autoplaySpeed: 2000,
   responsive: [
@@ -73,7 +73,7 @@ const MainContent = () => {
       <section>
       <h2 className="text-2xl font-semibold mb-4" onClick={()=>{nav("/members")}}>The team &#x2192;</h2>
       <Slider {...settings} className="mt-8"> 
-        {members.map((i, index) => (
+        {members.slice(0, 4).map((i, index) => (
           <div className='relative p-2 w-full' key={index}>
             <img src={i.file} className='w-full h-64 object-cover rounded-lg shadow-md' /> 
             <div className='absolute bottom-2 w-full  text-center text-white bg-black bg-opacity-50'>
@@ -91,6 +91,7 @@ const MainContent = () => {
           </div>
         ))}
       </Slider>
+      <button onClick={() => nav("/members")} className='bg-blue-500 mt-10 text-white p-2 mb-12 rounded-full'>View All Team Members</button>
       </section>
 
     </motion.main>
