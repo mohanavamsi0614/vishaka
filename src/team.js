@@ -65,6 +65,15 @@ const data = [
   //   "file": "tarun",
   //   "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   // },
+{
+    "date_time": "30/09/2024 11:27:23",
+    "name": "Tarun Sai Korlepara",
+    "email": "tarunsaikorlepara@gmail.com",
+    "role": "President (Jul 23 - Dec 23) And Chair Person",
+    "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
+    "file": tarun,
+    "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
   {
     "date_time": "30/09/2024 11:27:23",
     "name": "A Deepithika ",
@@ -74,15 +83,7 @@ const data = [
     "file": akki,
     "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
-  {
-    "date_time": "30/09/2024 11:27:23",
-    "name": "Tarun Sai Korlepara",
-    "email": "tarunsaikorlepara@gmail.com",
-    "role": "President (Jul 23 - Dec 23) And Chair Person",
-    "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-    "file": tarun,
-    "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-  },
+  
   {
     "date_time": "30/09/2024 11:27:04",
     "name": "A Raghava Chaithanya",
