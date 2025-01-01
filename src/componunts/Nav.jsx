@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from "../2_BR[1].png";
+import { useNavigate } from "react-router";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -7,7 +8,7 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-
+  const nav=useNavigate()
   return (
     <nav className="flex items-center justify-between w-full sticky top-0 bg-white shadow-md border-b h-16 px-6 z-50">
       <div>
@@ -28,6 +29,7 @@ const Navbar = () => {
               <button
                 key={item}
                 className="block w-full text-left px-4 py-2 hover:bg-gray-100"
+                onClick={()=>{nav("/")}}
               >
                 {item}
               </button>

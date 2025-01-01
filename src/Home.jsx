@@ -2,18 +2,22 @@ import Navbar from "./componunts/Nav";
 import EventSlider from "./componunts/Slider";
 import { useNavigate } from "react-router-dom";
 import members from "./team";
-
+import rangasthalam from "./assets/photos/Rangasthalam.png"
+import ugadi from "./assets/photos/ugadi.png"
 const upcomingEvents = [
-  { id: 1, title: "Salsa Night", date: "May 15, 2023", image: "https://i.ytimg.com/vi/C_KZ2TxiOpA/maxresdefault.jpg" },
-  { id: 2, title: "Hip Hop Workshop", date: "May 22, 2023", image: "https://m.media-amazon.com/images/I/51ZTjQRvWlS.jpg" },
-  { id: 3, title: "Ballroom Gala", date: "June 5, 2023", image: "https://i.pinimg.com/originals/54/7a/7f/547a7f9693b6ab79efcd963d2d760fcf.png" },
+  { id: 1, title: 'Rangasthalam', date: 'Nov 13 2024', image: rangasthalam },
+  { id: 2, title: 'Ugadi', date: 'April 9, 2024', image:  ugadi},
+  { id: 3, title: 'Ballroom Gala', date: 'June 5, 2023', image: 'https://i.pinimg.com/originals/54/7a/7f/547a7f9693b6ab79efcd963d2d760fcf.png' },
+  { id: 4, title: 'Salsa Night', date: 'May 15, 2023', image: 'https://i.ytimg.com/vi/C_KZ2TxiOpA/maxresdefault.jpg' },
+  { id: 5, title: 'Hip Hop Workshop', date: 'May 22, 2023', image: 'https://m.media-amazon.com/images/I/51ZTjQRvWlS.jpg' },
+  { id: 6, title: 'Ballroom Gala', date: 'June 5, 2023', image: 'https://i.pinimg.com/originals/54/7a/7f/547a7f9693b6ab79efcd963d2d760fcf.png' }
 ];
 
 function Home() {
   const navigate = useNavigate();
 
   return (
-    <div className="w-full h-full bg-gray-50">
+    <div className="w-full h-full bg-gray-50 p-2">
       <Navbar />
       <div>
         {/* Updates Section */}
@@ -57,7 +61,7 @@ function Home() {
         {/* Members Section */}
         <div className="my-10">
           <h1 className="text-3xl font-bold text-center mb-5 text-gray-800">Meet Our Members</h1>
-          <div className="w-full flex flex-wrap justify-center gap-2">
+          <div className="w-full flex flex-wrap justify-center items-center gap-2 flex-1">
             {members.slice(0, 6).map((member) => (
               <div key={member.id} className="w-48 bg-white  shadow-lg rounded-lg overflow-hidden">
                 <img className="w-full h-40 object-cover" src={member.file} alt={member.name} />

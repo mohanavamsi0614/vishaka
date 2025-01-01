@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import EventSlider from './componunts/Slider';
 import Gallery from './componunts/gallary';
-import ugadi from './ugadi.png';
+// import ugadi from './ugadi.png';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -19,7 +19,7 @@ const upcomingEvents = [
 ];
 
 const pastEvents =[
-  { id: 1, title: 'Ugadi Utsav', date: 'April 9, 2024', image: ugadi },
+  // { id: 1, title: 'Ugadi Utsav', date: 'April 9, 2024', image: ugadi },
   { id: 2, title: 'Hip Hop Workshop', date: 'May 22, 2023', image: 'https://m.media-amazon.com/images/I/51ZTjQRvWlS.jpg' },
   { id: 3, title: 'Ballroom Gala', date: 'June 5, 2023', image: 'https://i.pinimg.com/originals/54/7a/7f/547a7f9693b6ab79efcd963d2d760fcf.png' },
 ];

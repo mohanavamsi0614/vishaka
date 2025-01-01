@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import ugadi from './ugadi.png';
+// import ugadi from './ugadi.png';
 import Footer from './foot';
 
 const EventPage = () => {
@@ -33,25 +33,25 @@ const EventPage = () => {
     "https://m.media-amazon.com/images/I/51ZTjQRvWlS.jpg",
     "https://i.pinimg.com/originals/54/7a/7f/547a7f9693b6ab79efcd963d2d760fcf.png",
   ],
-            additionalInfo: "Don't forget to bring sunscreen and water!"
-        },{
-            title: 'Ugadi Utsav',
-            date: 'May 15, 2023',
-            time: '7:00 PM',
-            mainPhoto: ugadi,
-            description: `The event Ugadi Utsav 2K24 has been conducted on 09th April 2024 in Kalasalingam Academy of Research and Education. 
-Inauguration function started at 1:00pm with the lighting of the Kuthuvilakku as a tribute to Mother Saraswathi, the Goddess of Knowledge by the dignitaries. Prayer works wonders. Prayer should spring from the heart, thinking of a supreme power beyond all human inadequacies is a kind of auto suggestion
-Prayer to the God Ganesha with the song Gananayagaya by Sravani
-Dr. K. Sridharan – Chancellor & Dr. A. Samson Nesaraj – Director of Student Affairs, is the guest for the event.
-Dr. Kotte. Amaranadha Reddy, Faculty Coordinator of Vishaka Club & Assistant professor (Department of Mathematics) delivered the welcome address. 
-  Ms A Deepithika-President of club Vishaka proposed a vote of thanks.
-`,
-            photos: [ "https://i.ytimg.com/vi/C_KZ2TxiOpA/maxresdefault.jpg",
-    "https://m.media-amazon.com/images/I/51ZTjQRvWlS.jpg",
-    "https://i.pinimg.com/originals/54/7a/7f/547a7f9693b6ab79efcd963d2d760fcf.png",
-  ],
-            additionalInfo: "Don't forget to bring sunscreen and water!"
-        }
+            additionalInfo: "Don't forget to bring sunscreen and water!"}
+//         },{
+//             title: 'Ugadi Utsav',
+//             date: 'May 15, 2023',
+//             time: '7:00 PM',
+//             // mainPhoto: ugadi,
+//             description: `The event Ugadi Utsav 2K24 has been conducted on 09th April 2024 in Kalasalingam Academy of Research and Education. 
+// Inauguration function started at 1:00pm with the lighting of the Kuthuvilakku as a tribute to Mother Saraswathi, the Goddess of Knowledge by the dignitaries. Prayer works wonders. Prayer should spring from the heart, thinking of a supreme power beyond all human inadequacies is a kind of auto suggestion
+// Prayer to the God Ganesha with the song Gananayagaya by Sravani
+// Dr. K. Sridharan – Chancellor & Dr. A. Samson Nesaraj – Director of Student Affairs, is the guest for the event.
+// Dr. Kotte. Amaranadha Reddy, Faculty Coordinator of Vishaka Club & Assistant professor (Department of Mathematics) delivered the welcome address. 
+//   Ms A Deepithika-President of club Vishaka proposed a vote of thanks.
+// `,
+//             photos: [ "https://i.ytimg.com/vi/C_KZ2TxiOpA/maxresdefault.jpg",
+//     "https://m.media-amazon.com/images/I/51ZTjQRvWlS.jpg",
+//     "https://i.pinimg.com/originals/54/7a/7f/547a7f9693b6ab79efcd963d2d760fcf.png",
+//   ],
+//             additionalInfo: "Don't forget to bring sunscreen and water!"
+//         }
     ];
     
     const event = events.find(event => event.title === name);
