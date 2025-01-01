@@ -13,7 +13,7 @@ import Akhil from "./assets/photos/Screenshot 2024-10-16 114949.png";
 import Vudathu from "./assets/photos/Screenshot 2024-10-16 132018.png";
 import Aashritha from "./assets/photos/Screenshot 2024-10-16 132151.png";
 import chaithanya from "./assets/photos/Screenshot 2024-10-16 133045.png";
-import akki from "./assets/photos/image-removebg-preview (1).png"
+import akki from "./assets/photos/image-removebg-preview (1).jpg"
 import divya from "./assets/photos/image-removebg-preview (2).png"
 import Ranga from "./assets/photos/Screenshot 2024-11-07 093903.png" 
 import Narayana from "./assets/photos/Narayana.png"
@@ -24,54 +24,50 @@ import Kavya from "./assets/photos/Kavya.png"
 import krishna from "./assets/photos/Krishna.png"
 import Rishitha from "./assets/photos/Rishita.png"
 import Amulya from "./assets/photos/Amulya.png"
+import amar from "./assets/photos/amarnath.png"
+import sreenivasalu from "./assets/photos/Sreenivasalu.jpg"
+import redappa from "./assets/photos/reddappa.jpg"
+import Muthuselvam from "./assets/photos/Muthuselvam.jpg"
+import tamilarasi from "./assets/photos/tamilarasi.jpg"
 const data = [
-  // {
-  //   "date_time": "30/09/2024 11:27:23",
-  //   "name": "Dr.Kotte Amaranadha Reddy",
-  //   "role": "Faculty Coordinator",
-  //   "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-  //   "file": "tarun",
-  //   "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-  // },
-  // {
-  //   "date_time": "30/09/2024 11:27:23",
-  //   "name": "Dr.L.Sreenivasalu Reddy",
-  //   "role": "Mentor",
-  //   "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-  //   "file": "tarun",
-  //   "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-  // },
-  // {
-  //   "date_time": "30/09/2024 11:27:23",
-  //   "name": "Dr.B.Reddappa",
-  //   "role": "Mentor",
-  //   "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-  //   "file": "tarun",
-  //   "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-  // },
-  // {
-  //   "date_time": "30/09/2024 11:27:23",
-  //   "name": "Ms.Palli usha",
-  //   "role": "Event Coordinator",
-  //   "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-  //   "file": "tarun",
-  //   "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-  // },
-  // {
-  //   "date_time": "30/09/2024 11:27:23",
-  //   "name": "Mr.I.Muthuselvam",
-  //   "role": "Event Coordinator",
-  //   "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-  //   "file": "tarun",
-  //   "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-  // },
   {
     "date_time": "30/09/2024 11:27:23",
-    "name": "A Deepithika ",
-    "email": "tarunsaikorlepara@gmail.com",
-    "role": "President (Jan23 - Jun23)",
+    "name": "Dr.Kotte Amaranadha Reddy",
+    "role": "Faculty Coordinator",
     "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
-    "file": akki,
+    "file": amar,
+    "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  {
+    "date_time": "30/09/2024 11:27:23",
+    "name": "Dr.L.Sreenivasalu Reddy",
+    "role": "Mentor",
+    "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
+    "file": sreenivasalu,
+    "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  {
+    "date_time": "30/09/2024 11:27:23",
+    "name": "Dr.B.Reddappa",
+    "role": "Mentor",
+    "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
+    "file": redappa,
+    "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  {
+    "date_time": "30/09/2024 11:27:23",
+    "name": "Ms.Tamilarasi",
+    "role": "Event Coordinator",
+    "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
+    "file": tamilarasi,
+    "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  {
+    "date_time": "30/09/2024 11:27:23",
+    "name": "Mr.I.Muthuselvam",
+    "role": "Event Coordinator",
+    "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
+    "file": Muthuselvam,
     "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
@@ -81,6 +77,15 @@ const data = [
     "role": "President (Jul 23 - Dec 23) And Chair Person",
     "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
     "file": tarun,
+    "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  {
+    "date_time": "30/09/2024 11:27:23",
+    "name": "A Deepithika ",
+    "email": "tarunsaikorlepara@gmail.com",
+    "role": "President (Jan23 - Jun23)",
+    "instagram": "https://www.instagram.com/tarunsaikorlepara?igsh=ZDFsYWgzcDJ0MDdt",
+    "file": akki,
     "linkedin": "https://www.linkedin.com/in/tarunsaikorlepara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
