@@ -34,7 +34,7 @@ function Home() {
           <div className="w-full gap-5 flex-wrap flex flex-1 justify-around">
             {upcomingEvents.map((event) => (
               <div key={event.id} className="w-52 m-1 md:w-1/3 bg-white shadow-lg rounded-lg overflow-hidden">
-                <img className="w-full h-40 object-cover" src={event.image} alt={event.title} />
+                <img className="w-full h-auto object-cover" src={event.image} alt={event.title} />
                 <div className="p-4">
                   <h2 className="text-xl font-bold text-gray-800">{event.title}</h2>
                   <p className="text-sm text-gray-600">{event.date}</p>
