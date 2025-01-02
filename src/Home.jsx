@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import members from "./team";
 import rangasthalam from "./assets/photos/Rangasthalam.png"
 import ugadi from "./assets/photos/ugadi.png"
+import group from "./assets/photos/group.jpg"
 const upcomingEvents = [
   { id: 1, title: 'Rangasthalam', date: 'Nov 13 2024', image: rangasthalam },
   { id: 2, title: 'Ugadi', date: 'April 9, 2024', image:  ugadi},
@@ -17,21 +18,21 @@ function Home() {
   const navigate = useNavigate();
 
   return (
-    <div className="w-full h-full bg-gray-50 p-2">
+    <div className="w-full h-full bg-gray-50">
       <Navbar />
       <div>
         {/* Updates Section */}
-        <div className="my-10">
+        {/* <div className="my-10">
           <h1 className="m-5 text-3xl font-bold text-center text-gray-800">Updates</h1>
           <EventSlider events={upcomingEvents} />
-        </div>
+        </div> */}
+        <img src={group} className=" rounded-lg"/>
 
         {/* Events Section */}
         <div>
           <h1 className="text-2xl font-semibold text-center mb-5 text-gray-800">Events</h1>
-          <div className="w-full flex flex-wrap justify-around gap-5">
-            {upcomingEvents.map((event) => (
-              <div key={event.id} className="w-full md:w-1/3 bg-white shadow-lg rounded-lg overflow-hidden">
+            {/* {upcomingEvents.map((event) => (
+              <div key={event.id} className="w-52 m-1 md:w-1/3 bg-white shadow-lg rounded-lg overflow-hidden">
                 <img className="w-full h-40 object-cover" src={event.image} alt={event.title} />
                 <div className="p-4">
                   <h2 className="text-xl font-bold text-gray-800">{event.title}</h2>
@@ -39,8 +40,8 @@ function Home() {
                   <p className="text-gray-700 mt-2">Here is a brief description of the event. Stay tuned for more details!</p>
                 </div>
               </div>
-            ))}
-          </div>
+            ))} */}
+            <EventSlider events={upcomingEvents}/>
           <p
             onClick={() => navigate("/events")}
             className="mt-5 text-center text-blue-500 hover:underline cursor-pointer"
