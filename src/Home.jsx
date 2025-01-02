@@ -31,7 +31,8 @@ function Home() {
         {/* Events Section */}
         <div>
           <h1 className="text-2xl font-semibold text-center mb-5 text-gray-800">Events</h1>
-            {/* {upcomingEvents.map((event) => (
+          <div className="w-full gap-5 flex-wrap flex flex-1 justify-around">
+            {upcomingEvents.map((event) => (
               <div key={event.id} className="w-52 m-1 md:w-1/3 bg-white shadow-lg rounded-lg overflow-hidden">
                 <img className="w-full h-40 object-cover" src={event.image} alt={event.title} />
                 <div className="p-4">
@@ -40,8 +41,8 @@ function Home() {
                   <p className="text-gray-700 mt-2">Here is a brief description of the event. Stay tuned for more details!</p>
                 </div>
               </div>
-            ))} */}
-            <EventSlider events={upcomingEvents}/>
+            ))}
+          </div>
           <p
             onClick={() => navigate("/events")}
             className="mt-5 text-center text-blue-500 hover:underline cursor-pointer"
