@@ -17,8 +17,11 @@ const upcomingEvents = [
   { id: 3, title: 'Placement Talk', date: 'August 10, 2024', image: place },
   { id: 4, title: 'sankranthi', date: 'Jan 4, 2025', image: sankranthi },
   { id: 5, title: 'Splash', date: 'Sep 14, 2024', image: splash },
-  { id: 6, title: 'ignite', date: 'June 5, 2023', image: ignite }
+  { id: 6, title: 'ignite', date: 'Feb 17, 2024', image: ignite }
 ];
+
+// Sort events by date
+const sortedEvents = upcomingEvents.sort((a, b) => new Date(b.date) - new Date(a.date));
 
 function Home() {
   const navigate = useNavigate();
@@ -39,21 +42,15 @@ function Home() {
         <div>
           <h1 className="text-5xl font-semibold text-center mb-5 text-gray-800">Events</h1>
           <div className="w-full gap-5 flex-wrap flex flex-1 justify-center md:justify-around">
-            {upcomingEvents.map((event) => (
-              <motion.div
-                key={event.id}
-                className="w-full sm:w-72 md:w-1/4 m-2 bg-white shadow-lg rounded-lg overflow-hidden"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-              >
+            {sortedEvents.map((event) => (
+              <div key={event.id} className="w-full sm:w-72 md:w-1/4 m-2 bg-white shadow-lg rounded-lg overflow-hidden">
                 <img className="w-full h-auto object-cover" src={event.image} alt={event.title} />
                 <div className="p-4">
                   <h2 className="text-xl font-bold text-gray-800">{event.title}</h2>
                   <p className="text-sm text-gray-600">{event.date}</p>
                   <p className="text-gray-700 mt-2">Here is a brief description of the event. Stay tuned for more details!</p>
                 </div>
-              </motion.div>
+              </div>
             ))}
           </div>
           <p
@@ -65,18 +62,13 @@ function Home() {
         </div>
 
         {/* About Us Section */}
-        <motion.div
-          className="my-10 bg-white p-5 shadow-md rounded-lg mx-5 lg:mx-20"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-        >
+        <div className="my-10 bg-white p-5 shadow-md rounded-lg mx-5 lg:mx-20">
           <h1 className="text-3xl font-bold mb-5 text-gray-800">About Us</h1>
           <p className="text-gray-700 leading-relaxed">
             Welcome to our community! We host various events to bring people together and share our love for dance and
             music. Join us to create memories, learn new skills, and have a fantastic time.
           </p>
-        </motion.div>
+        </div>
 
         {/* Members Section */}
         <div className="my-10">
