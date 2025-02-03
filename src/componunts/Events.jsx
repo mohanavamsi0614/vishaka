@@ -19,15 +19,30 @@ const Events = () => {
     };
 
     return (
-        <div className=' bg-black p-2'>
+        <div className='bg-black p-4'>
         <Navbar/>
-            <h1>Events</h1>
+            <h1 className='text-white text-3xl mb-4'>Events</h1>
             <ul style={{ listStyleType: 'none', padding: 0 }}>
                 {events.map(event => (
-                    <li key={event.id} onClick={() => handleEventClick(event.title)} style={{ cursor: 'pointer', color: '#007bff', marginBottom: '20px' }}>
+                    <li 
+                        key={event.id} 
+                        onClick={() => handleEventClick(event.id)} 
+                        style={{ 
+                            cursor: 'pointer', 
+                            color: '#007bff', 
+                            marginBottom: '20px', 
+                            transition: 'transform 0.2s', 
+                            border: '1px solid #444', 
+                            borderRadius: '8px', 
+                            padding: '10px', 
+                            backgroundColor: '#222' 
+                        }} 
+                        onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.05)'} 
+                        onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}
+                    >
                         <img src={event.image} alt={event.title} style={{ width: '100%', height: 'auto', borderRadius: '8px' }} />
-                        <h2>{event.title}</h2>
-                        <p>{event.date}</p>
+                        <h2 className='text-white text-xl'>{event.title}</h2>
+                        <p className='text-gray-400'>{event.date}</p>
                     </li>
                 ))}
             </ul>
