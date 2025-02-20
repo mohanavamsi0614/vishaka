@@ -167,14 +167,6 @@ const data = [
     "instagram": "https://www.instagram.com/charan_ranga_?igsh=MWEzNDFsZnZvZTIwZA==",
     "file": Ranga,
     "linkedin": "https://www.linkedin.com/in/charanranga?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-  },{
-    "date_time": "30/09/2024 11:27:52",
-    "name": "M Jaya Chandrika",
-    "email": "keerthivardhankorlepara@gmail.com",
-    "role": "Treasurer",
-    "instagram": "https://www.instagram.com/keerthi_royal___03?igsh=MWI2MGI1ZDZhOA==",
-    "file": "",
-    "linkedin": "https://www.linkedin.com/in/keerthi-vardhan-korlepara-68415926b"
   },
   {
     "date_time": "30/09/2024 11:27:52",
@@ -221,14 +213,6 @@ const data = [
     "linkedin": "https://www.linkedin.com/in/keerthi-vardhan-korlepara-68415926b"
   },
   {
-    "date_time": "30/09/2024 11:27:52",
-    "name": "R Manoj Hariharan",
-    "email": "keerthivardhankorlepara@gmail.com",
-    "role": "Technical Head",
-    "instagram": "https://www.instagram.com/keerthi_royal___03?igsh=MWI2MGI1ZDZhOA==",
-    "file":"" ,
-    "linkedin": "https://www.linkedin.com/in/keerthi-vardhan-korlepara-68415926b"
-  }, {
     "date_time": "30/09/2024 11:27:52",
     "name": "M Sai Srikaran",
     "email": "keerthivardhankorlepara@gmail.com",
