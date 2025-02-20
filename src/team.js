@@ -337,22 +337,6 @@ const data = [
     "linkedin": "https://www.linkedin.com/in/aashritha-varanasi-b8b92926b"
   },
  
-  {
-    "date_time": "30/09/2024 10:55:26",
-    "name": "Mohana Vamsi G",
-    "email": "mohanavamsi14@gmail.com",
-    "role": "Web Lead",
-    "instagram": "https://www.instagram.com/g.mohanavamsi",
-    "file": mohana
-  },
-  {
-    "date_time": "30/09/2024 10:41:58",
-    "name": "Rahul Varma",
-    "email": "chamarthirahul2105@gmail.com",
-    "role": "Web Developer",
-    "instagram": "https://www.instagram.com/chamarthirahul/",
-    "linkedin": "https://www.linkedin.com/in/raahul-varma-270a35297/",
-    "file": rahul
-  }
+
 ];
 export default data
